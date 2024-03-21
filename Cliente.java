@@ -8,6 +8,7 @@ public class Cliente {
 	String apellido;
 	String dni;
 	String direccion;
+	int edad;
 	ArrayList <Producto> compras = new ArrayList <Producto> ();
 	
 	public Cliente(String nombre, String apellido, String dni) {
@@ -48,3 +49,5 @@ public class Cliente {
 	}
 	
 }
+
+	
