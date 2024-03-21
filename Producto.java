@@ -16,7 +16,15 @@ public class Producto {
 		this.cantidad = cantidad;
 		this.color = color;
 	}
-
+	
+	public String getNombre() {
+		return nombre;
+	}
+		
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
 
 	@Override
 	public String toString() {
