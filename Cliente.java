@@ -11,12 +11,14 @@ public class Cliente {
 	int edad;
 	ArrayList <Producto> compras = new ArrayList <Producto> ();
 	
-	public Cliente(String nombre, String apellido, String dni) {
-		super();
-		this.nombre = nombre;
-		this.apellido = apellido;
-		this.dni = dni;
-	}
+	public Cliente(String nombre, String apellido, String dni, String direccion, int edad) {
+			super();
+			this.nombre = nombre;
+			this.apellido = apellido;
+			this.dni = dni;
+			this.direccion = direccion;
+			this.edad = edad;
+		}
 
 	public String getNombre() {
 		return nombre;
