@@ -33,6 +33,14 @@ public class Producto {
 		this.marca = marca;
 	}
 
+	public String getColor() {
+		return color;
+	}
+		
+	public void setColor(String color) {
+		this.color = color;
+	}
+
 	@Override
 	public String toString() {
 		return "Producto [id=" + id + ", nombre=" + nombre + ", marca=" + marca + ", cantidad=" + cantidad + ",color=" + color + "]";
