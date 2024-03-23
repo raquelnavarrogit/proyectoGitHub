@@ -5,7 +5,7 @@ public class Tienda {
 	Cliente cliente;
 	Producto producto;
 	private String direccion;
-	
+	private int telefono;
 	
 	
 	public Tienda() {
