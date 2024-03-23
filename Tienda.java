@@ -4,6 +4,8 @@ public class Tienda {
 	ArrayList <Producto> stock = new ArrayList <Producto> ();
 	Cliente cliente;
 	Producto producto;
+	private String direccion;
+	
 	
 	
 	public Tienda() {
