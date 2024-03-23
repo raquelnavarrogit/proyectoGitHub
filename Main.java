@@ -23,7 +23,7 @@ public class MainTienda {
 
 		
 		System.out.println("Esto es una prueba de git");
-	
+		System.out.println("Prueba merge sin conflicto");
 
 		System.out.println(teashop.toString());
 
