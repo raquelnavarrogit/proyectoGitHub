@@ -11,6 +11,11 @@ public class Tienda {
 	public Tienda() {
 		super();
 	}
+
+	public Tienda(String direccion, int telefono) {
+		this.direccion = direccion;
+		this.telefono = telefono;
+	}
 	
 	public void añadirCliente () {
 		
