@@ -13,7 +13,7 @@ public class MainTienda {
 		
 		teashop.mostrarClientes();
 		teashop.mostrarProductos();
-
+		System.out.println("Prueba merge sin conflicto ");
 
 		System.out.println("Aquí estamos probando la nueva rama que hemos creado");
 		
